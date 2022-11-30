@@ -24,3 +24,4 @@ TODO
 
 ### <a name="credits" title="Credits for the creators of PocketManager">Credits</a>
 Lead developer: Jacob Graham
+
