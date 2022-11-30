@@ -1,13 +1,11 @@
 # PocketManager
 
 ### Table of contents
-<ol>
-    <li>[Project description](#description)</li>
-    <li>[How to install and run](#install_and_run)</li>
-    <li>[How to use](#how_to_use)</li>
-    <li>[Contributing](#contributing)</li>
-    <li>[Credits](#credits)</li>
-</ol>
+1. [Project description](#description)</li>
+2. [How to install and run](#install_and_run)</li>
+3. [How to use](#how_to_use)</li>
+4. [Contributing](#contributing)</li>
+5. [Credits](#credits)</li>
 <br/>
 
 ### <a name="description" title="A description of this project, also known as PocketManager">Project description</a>
