@@ -9,7 +9,8 @@
 <br/>
 
 ### <a name="description" title="A description of this project, also known as PocketManager">Project description</a>
-TODO
+Effective December 17, 2022, the main focus for the development of this application will be centered on assisting students in managing their time, and
+helping them build effective time-management skills. 
 
 ### <a name="install_and_run" title="How to install and run PocketManager on your local computer">Install and run</a>
 TODO
