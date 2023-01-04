@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extended_floating_action_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:text="List"
+        android:textColor="@color/white"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/extended_floating_action_button_time_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/black"
+            app:fabSize="normal"
+            app:tint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/extended_floating_action_button_main"
+            app:layout_constraintEnd_toEndOf="@+id/extended_floating_action_button_main"
+            android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/floating_action_button_time_manager_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/time_manager_button_text"
+                app:layout_constraintBottom_toBottomOf="@+id/extended_floating_action_button_time_manager"
+                app:layout_constraintEnd_toStartOf="@+id/extended_floating_action_button_time_manager"
+                app:layout_constraintTop_toTopOf="@+id/extended_floating_action_button_time_manager" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/extended_floating_action_button_budgeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/black"
+            app:fabSize="normal"
+            app:tint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/extended_floating_action_button_time_manager"
+            app:layout_constraintEnd_toEndOf="@+id/extended_floating_action_button_time_manager"
+            app:layout_constraintStart_toStartOf="@+id/extended_floating_action_button_time_manager"
+            android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/floating_action_button_budgeter_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/budgeter_button_text"
+                app:layout_constraintBottom_toBottomOf="@+id/extended_floating_action_button_budgeter"
+                app:layout_constraintEnd_toStartOf="@+id/extended_floating_action_button_budgeter"
+                app:layout_constraintTop_toTopOf="@+id/extended_floating_action_button_budgeter" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
